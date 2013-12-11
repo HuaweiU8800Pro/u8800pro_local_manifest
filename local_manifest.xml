@@ -8,7 +8,7 @@
     <project path="frameworks/av" name="CrysisLTU/android_frameworks_av" revision="cm-11.0" />
     <project path="frameworks/native" name="szezso/android_frameworks_native" revision="cm-11.0" />
     <project path="external/wpa_supplicant_8" name="CrysisLTU/android_external_wpa_supplicant_8" revision="cm-11.0" />
-    <project path="hardware/libhardware_legacy" name="CrysisLTU/hardware_libhardware_legacy" revision="cm-11.0" />
+    <project path="hardware/libhardware_legacy" name="CrysisLTU/android_hardware_libhardware_legacy" revision="cm-11.0" />
     <project path="device/huawei/u8800pro" name="CrysisLTU/android_device_huawei_u8800pro" revision="cm-11.0" />
     <project path="device/huawei/msm7x30-common" name="CrysisLTU/android_device_huawei_msm7x30-common" revision="cm-11.0" />
     <project path="hardware/atheros/wifi/libs" name="CrysisLTU/android_hardware_atheros_wifi_libs" revision="cm-11.0" />
