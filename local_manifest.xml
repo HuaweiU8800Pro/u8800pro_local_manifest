@@ -5,11 +5,11 @@
     <remove-project name="CyanogenMod/android_frameworks_native" />
     <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
     <project path="frameworks/native" name="szezso/android_frameworks_native" revision="cm-11.0" />
-    <project name="Herna1994/android_device_huawei_u8800pro" path="device/huawei/u8800pro" revision="cm11" />
-    <project name="Herna1994/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common" revision="cm-11.0" />
-    <project name="Herna1994/android_hardware_atheros_wifi_libs" path="hardware/atheros/wifi/libs" revision="cm10.2" />
-    <project name="Herna1994/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-11.0" />
-    <project name="Herna1994/android_proprietary_vendor_huawei" path="vendor/huawei" revision="cm10.2" />
+    <project path="device/huawei/u8800pro" name="CrysisLTU/android_device_huawei_u8800pro" revision="cm-11.0" />
+    <project path="device/huawei/msm7x30-common" name="CrysisLTU/android_device_huawei_msm7x30-common" revision="cm-11.0" />
+    <project path="hardware/atheros/wifi/libs" name="CrysisLTU/android_hardware_atheros_wifi_libs" revision="cm-11.0" />
+    <project path="hardware/qcom/display-legacy" name="CrysisLTU/android_hardware_qcom_display-legacy" revision="cm-11.0" />
+    <project path="vendor/huawei" name="CrysisLTU/android_proprietary_vendor_huawei" revision="cm-11.0" />
     <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
     <project path="hardware/qcom/audio-caf" name="Evervolv/android_hardware_qcom_audio-caf" remote="github" revision="kitkat" />
 </manifest>
