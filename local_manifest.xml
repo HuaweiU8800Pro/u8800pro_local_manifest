@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- CM replacements -->
+    <remove-project name="CyanogenMod/android_frameworks_av" />
+    <remove-project name="CyanogenMod/android_frameworks_native" />
+    <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" />
+    <project path="frameworks/native" name="szezso/android_frameworks_native" revision="cm-11.0" />
+    <project name="Herna1994/android_device_huawei_u8800pro" path="device/huawei/u8800pro" revision="cm11" />
+    <project name="Herna1994/android_device_huawei_msm7x30-common" path="device/huawei/msm7x30-common" revision="cm-11.0" />
+    <project name="Herna1994/android_hardware_atheros_wifi_libs" path="hardware/atheros/wifi/libs" revision="cm10.2" />
+    <project name="Herna1994/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-11.0" />
+    <project name="Herna1994/android_proprietary_vendor_huawei" path="vendor/huawei" revision="cm10.2" />
+    <project path="hardware/qcom/media-legacy" name="legaCyMod/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+    <project path="hardware/qcom/audio-caf" name="Evervolv/android_hardware_qcom_audio-caf" remote="github" revision="kitkat" />
+</manifest>
