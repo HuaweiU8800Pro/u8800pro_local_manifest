@@ -20,7 +20,7 @@
      
      <!-- Linaro Build Enviroment -->
      <remove-project name="CyanogenMod/android_build" />
-     <project path="build" name="Team-Hydra/android_build" remote="github" revision="0812c4456f" />
+     <project path="build" name="Team-Hydra/android_build" remote="github" revision="cm-11.0" />
      <project path="prebuilt/linux-x86/toolchain/linaro" name="Team-Hydra/linaro" remote="github" revision="cm-11.0" />
      <project path="prebuilt/linux-x86/toolchain/linaro-arm-a15" name="Team-Hydra/linaro-arm-a15" remote="github" revision="cm-11.0" />
      <project path="prebuilt/linux-x86/toolchain/linaro-arm-cortex-a8" name="Team-Hydra/linaro-arm-cortex-a8" remote="github" revision="cm-11.0" />
