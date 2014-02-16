@@ -1,19 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-    <!-- CM replacements -->
-    <remove-project name="CyanogenMod/android_frameworks_av" />
-    <remove-project name="CyanogenMod/android_frameworks_native" />
-    <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
-    <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
-    <project path="frameworks/av" name="CrysisLTU/android_frameworks_av" revision="cm-11.0" />
-    <project path="frameworks/native" name="CrysisLTU/android_frameworks_native" revision="cm-11.0" />
-    <project path="external/wpa_supplicant_8" name="CrysisLTU/android_external_wpa_supplicant_8" revision="cm-11.0" />
-    <project path="hardware/libhardware_legacy" name="CrysisLTU/android_hardware_libhardware_legacy" revision="cm-11.0" />
-    <project path="device/huawei/u8800pro" name="CrysisLTU/android_device_huawei_u8800pro" revision="cm-11.0" />
-    <project path="device/huawei/msm7x30-common" name="CrysisLTU/android_device_huawei_msm7x30-common" revision="cm-11.0" />
-    <project path="hardware/atheros/wifi/libs" name="CrysisLTU/android_hardware_atheros_wifi_libs" revision="cm-11.0" />
-    <project path="hardware/qcom/display-legacy" name="CrysisLTU/android_hardware_qcom_display-legacy" revision="cm-11.0" />
-    <project path="vendor/huawei" name="CrysisLTU/android_proprietary_vendor_huawei" revision="cm-11.0" />
-    <project path="hardware/qcom/media-legacy" name="CrysisLTU/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
-    <project path="hardware/qcom/audio-caf" name="CrysisLTU/android_hardware_qcom_audio-caf" remote="github" revision="kitkat" />
+   <manifest>
+
+     <!-- Device Folders, Kernel & Proprietary BLOBS -->
+     <project path="vendor/huawei" name="CyanogenModu8800pro/proprietary_vendor_huawei" remote="github" revision="cm-11.0"/>
+     <project path="kernel/huawei/u8800pro" name="RittikBhowmik/Project-X5pro-Kernel-u8800pro" remote="github" revision="master"/>
+     <project path="device/huawei/msm7x30-common" name="CyanogenModu8800pro/android_device_huawei_msm7x30-common" remote="github" revision="cm-11.0"/>
+     <project path="device/huawei/u8800pro" name="CyanogenModu8800pro/android_device_huawei_u8800pro" remote="github" revision="cm-11.0"/>
+
+     <!-- WIFI -->
+     <project path="hardware/atheros/wifi/libs" name="CyanogenModu8800pro/android_hardware_atheros_wifi_libs" remote="github" revision="cm-11.0" />
+
+     <!-- QCOM Hardware -->
+     <project name="Team-Hydra/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="kitkat-staging" />
+     <project name="Team-Hydra/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="kitkat-staging" />
+
+     <!-- Frameworks -->
+     <remove-project name="CyanogenMod/android_frameworks_native" />
+     <project path="frameworks/native" name="Team-Hydra/frameworks_native" remote="github" revision="cm-11.0" />
+     
+     <!-- Linaro Build Enviroment -->
+     <remove-project name="CyanogenMod/android_build" />
+     <project path="build" name="Team-Hydra/android_build" remote="github" revision="0812c4456f" />
+     <project path="prebuilt/linux-x86/toolchain/linaro" name="Team-Hydra/linaro" remote="github" revision="cm-11.0" />
+     <project path="prebuilt/linux-x86/toolchain/linaro-arm-a15" name="Team-Hydra/linaro-arm-a15" remote="github" revision="cm-11.0" />
+     <project path="prebuilt/linux-x86/toolchain/linaro-arm-cortex-a8" name="Team-Hydra/linaro-arm-cortex-a8" remote="github" revision="cm-11.0" />
+
+     <!-- Webkit -->
+     <project path="external/webkit" name="Dazzozo/android_external_webkit" remote="github" revision="kitkat"/>
+     
 </manifest>
