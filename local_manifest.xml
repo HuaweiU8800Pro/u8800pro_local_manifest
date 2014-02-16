@@ -16,7 +16,7 @@
 
      <!-- Frameworks -->
      <remove-project name="CyanogenMod/android_frameworks_native" />
-     <project path="frameworks/native" name="Team-Hydra/frameworks_native" remote="github" revision="cm-11.0" />
+     <project path="frameworks/native" name="Team-Hydra/android_frameworks_native" remote="github" revision="cm-11.0" />
      
      <!-- Linaro Build Enviroment -->
      <remove-project name="CyanogenMod/android_build" />
