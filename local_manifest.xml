@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
    <manifest>
+	   
+	 <!-- Allow to compile with Linaro. -->  
+	 <remove-project name="CyanogenMod/android_build" />
+     <project path="build" name="Team-Hydra/android_build" remote="github" revision="cm-11.0" >
+      <copyfile src="core/root.mk" dest="Makefile" />
+     </project>
 
      <!-- Device Folders, Kernel & Proprietary BLOBS -->
      <project path="vendor/huawei" name="CyanogenModu8800pro/android_proprietary_vendor_huawei" remote="github" revision="cm-11.0"/>
@@ -19,8 +25,6 @@
      <project path="frameworks/native" name="Team-Hydra/android_frameworks_native" remote="github" revision="cm-11.0" />
      
      <!-- Linaro Build Enviroment -->
-     <remove-project name="CyanogenMod/android_build" />
-     <project path="build" name="Team-Hydra/android_build" remote="github" revision="cm-11.0" />
      <project path="prebuilt/linux-x86/toolchain/linaro" name="Team-Hydra/linaro" remote="github" revision="cm-11.0" />
      <project path="prebuilt/linux-x86/toolchain/linaro-arm-a15" name="Team-Hydra/linaro-arm-a15" remote="github" revision="cm-11.0" />
      <project path="prebuilt/linux-x86/toolchain/linaro-arm-cortex-a8" name="Team-Hydra/linaro-arm-cortex-a8" remote="github" revision="cm-11.0" />
