@@ -2,9 +2,9 @@
    <manifest>
 
      <!-- Device Folders, Kernel & Proprietary BLOBS -->
-     <project path="vendor/huawei/u8800pro" name="moihack/cm11_vendor_u8800pro" remote="github" revision="master"/>
-     <project path="kernel/huawei/u8800pro" name="RittikBhowmik/Project-X5pro-Kernel-u8800pro" remote="github" revision="master"/>
-     <project path="device/huawei/u8800pro" name="moihack/cm11_device_u8800pro" remote="github" revision="master"/>
+     <project path="vendor/huawei/u8800pro" name="CrysisLTU/cm11_vendor_u8800pro" remote="github" revision="master"/>
+     <project path="kernel/huawei/u8800pro" name="CrysisLTU/Project-X5pro-Kernel-u8800pro" remote="github" revision="master"/>
+     <project path="device/huawei/u8800pro" name="CrysisLTU/cm11_device_u8800pro" remote="github" revision="master"/>
 
      <!-- WIFI -->
      <project path="hardware/atheros/wifi/libs" name="CyanogenModu8800pro/android_hardware_atheros_wifi_libs" remote="github" revision="cm-11.0" />
