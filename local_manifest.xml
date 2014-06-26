@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
    <manifest>
-	   
-	 <!-- Allow to compile with Linaro. -->  
-	 <remove-project name="CyanogenMod/android_build" />
-     <project path="build" name="Team-Hydra/android_build" remote="github" revision="cm-11.0" >
-      <copyfile src="core/root.mk" dest="Makefile" />
-     </project>
 
      <!-- Device Folders, Kernel & Proprietary BLOBS -->
-     <project path="vendor/huawei" name="CyanogenModu8800pro/android_proprietary_vendor_huawei" remote="github" revision="cm-11.0"/>
+     <project path="vendor/huawei/u8800pro" name="moihack/cm11_vendor_u8800pro" remote="github" revision="master"/>
      <project path="kernel/huawei/u8800pro" name="RittikBhowmik/Project-X5pro-Kernel-u8800pro" remote="github" revision="master"/>
-     <project path="device/huawei/msm7x30-common" name="CyanogenModu8800pro/android_device_huawei_msm7x30-common" remote="github" revision="cm-11.0"/>
-     <project path="device/huawei/u8800pro" name="CyanogenModu8800pro/android_device_huawei_u8800pro" remote="github" revision="cm-11.0"/>
+     <project path="device/huawei/u8800pro" name="moihack/cm11_device_u8800pro" remote="github" revision="master"/>
 
      <!-- WIFI -->
      <project path="hardware/atheros/wifi/libs" name="CyanogenModu8800pro/android_hardware_atheros_wifi_libs" remote="github" revision="cm-11.0" />
@@ -19,15 +12,6 @@
      <!-- QCOM Hardware -->
      <project name="Team-Hydra/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="kitkat-staging" />
      <project name="Team-Hydra/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="kitkat-staging" />
-
-     <!-- Frameworks -->
-     <remove-project name="CyanogenMod/android_frameworks_native" />
-     <project path="frameworks/native" name="Team-Hydra/android_frameworks_native" remote="github" revision="cm-11.0" />
-     
-     <!-- Linaro Build Enviroment -->
-     <project path="prebuilt/linux-x86/toolchain/linaro" name="Team-Hydra/linaro" remote="github" revision="cm-11.0" />
-     <project path="prebuilt/linux-x86/toolchain/linaro-arm-a15" name="Team-Hydra/linaro-arm-a15" remote="github" revision="cm-11.0" />
-     <project path="prebuilt/linux-x86/toolchain/linaro-arm-cortex-a8" name="Team-Hydra/linaro-arm-cortex-a8" remote="github" revision="cm-11.0" />
 
      <!-- Webkit -->
      <project path="external/webkit" name="Dazzozo/android_external_webkit" remote="github" revision="kitkat"/>
